@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Celina Logbog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Celina</a>
+            <a href="Design af IT-systemer.html">Design af it-systemer</a>
+            <a href="Programering.html" class="active">Programmering</a>
+            <a href="IT-design.html">IT-design</a>
+            <a href="dansk.html">Da</a>
+            <a href="engelsk.html">En</a>
+            <a href="so.html">BT</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="matematik">
+            <div class="element left">
+                <h2>Programmering Noter</h2>
+               
+                <button class="accordion">Hallo World</button>
+                <div class="panel">
+                <p> Man skulle kunne udskrive noget tekst med console.log og se det i konsollen på ens hjemmeside, og se og der efterfølgende vil være fejl i ens kode </p>
+                </div>
+
+                <button class="accordion">Variable og konstant</button>
+                <div class="panel">
+                 <p> Variable og konstanter kan gemme værdier i hukommelsen, men værdierne kan også blive ændret
+               <br> <br> En variabel er en der kan blive ændret med tiden fx. ens alder
+                <br> En konstant er noget som ikke ændren (man kan blive ændret i koden) fx. ens fødselsdag
+                <br><br> En variabel og en konstant kan hedde alt, undtagen hvis det starter med et tal eller spicelt tegn
+                      </p>      
+                 </div>
+
+
+                 <button class="accordion">Operatorer</button>
+                 <div class="panel">
+                  <p> Der er fire slags Operatorer
+                    <p><ul align=left>
+                        <li>Assignment, kan tildele variable en værdi </li>
+                        <br><li>Logic, kan sætte flere værdier sammen, med "and","or", og "not"  </li>
+                        <br><li>Comparison,kan sammeligne værdier med hinanden</li>
+                        <br><li>Arithmetic, kan løse regnestykker</li>
+                </p>
+                 </p>      
+                  </div>
+ 
+                  <button class="accordion">If-Statements</button>
+                 <div class="panel">
+                  <p>  Man kan bruge If-Statements til at tjekke om en eller flere betingelser er opfyldt </p>      
+                  <p><ul align=left>
+                  <li>if,  bruges til at angive en kodeblok der skal udføres hvis en specificeret betingelse er sand </li>
+                        <br><li> else, bruges til at angive en kodeblok der skal udføres hvis en specificeret betingelse er falsk </li>
+                        <br><li>else if,bruges til at angive en ny betingelse der skal testes hvis den første betingelse er falsk</li>
+                        <br><li>switch, bruges til at angive mange elternative kodeblokke der skal udføres</li>
+                </p>
+                  </div>
+ 
+                  <button class="accordion">Funktioner</button>
+                 <div class="panel">
+                  <p>  Funktionerkan gemme stykker af logik, indtil at det er slut så bliver funktionen ikke husket
+                      <br>I en funktio er der fire forskellige dele - Navn, inputs, indhold og output  </p>      
+                  </div>
+ 
+                  <button class="accordion">Arrays</button>
+                 <div class="panel">
+                  <p>  Arrays bruges til at gemme flere værdier på en gang 
+                  </p>      
+                  </div>
+
+                  <button class="accordion">Loops</button>
+                  <div class="panel">
+                   <p>  Loops bruges til at gentage den samme stykke kode flere gange i træk, indtil den overskrider en givet værdi
+                <br> Der findes tre forskellige Loops<br>       
+                
+                <ul align=left>
+                    <li>For-loop, går gennem en kodeblok et antal gange </li>
+                    <br><li> For/in-looe, gentagelse gennem et objekts egenskaber</li>
+                    <br><li>For/of-loop, gentagelse gennem værdierne af et iterabelt objekt </li>
+                    <br><li> While-looe, gentagelse gennem en kodeblok, mens en specificeret betingelse er sand </li>
+                    <br><li> Do/while-looe, også gentagelse gennem en kodeblok, mens en specificeret betingelse er sand </li>
+
+                
+                
+                </p>      
+                   </div>
+
+                   <button class="accordion">Alert, Confirm og Prompt</button>
+                   <div class="panel">
+                    <p>  Alert, er en box der kommer frem på hjemmeside, som er en besked hvor man selv kan bestemme hvad den skal sige, og hvor man kun kan sige "ok"<br><br>
+                        Confim,er også en box der kommer, her kan man dog både sige "ok" og "annuller"<br><br>
+    
+                    Prompt er igen en box der kommer, her kan man dog både vælge "ok" og "annuller", men kan kan også skrive noget i et tekstfelt
+                        </p>                       </div>
+            </div>
+
+
+
+
+            <div class="element left">
+                <h2>Eksempel</h2>
+                <button class="accordion">Variable og konstant </button>
+                <div class="panel">
+                <p> En variabel kan se sådan ud - 
+                    <br> let minAlder = 29; 
+                <br><br>
+                En konstant kan se sådan ud - <br>
+                const minFødselsdag = "05/09/2004"
+                
+                </p>
+                </div>
+
+                <button class="accordion">Operatorer</button>
+                <div class="panel">
+                 <p>  <ul align=left>
+                    <li>Assignment, <br> let gameMode = "action";<br>cloudXPosition += cloudXSpeed; </li>
+                    <br><li>Logic, <br> if(debugModelsOn && gamelsRunning)<br> if(!debugModelsOn) </li>
+                    <br><li>Comparison,<br> if(gameMode == "action"); <br> if(birdYPosition > canvasHeight)</li>
+                    <br><li>Arithmetic, <br> birdPosition  + birdSpeed<br> birdImageWidth * canvasScale;</li> </p>      
+                 </div>
+
+                <button class="accordion">If-Statements</button>
+                 <div class="panel">
+                  <p>  Eksempel på en detingelse som er opfyldt<br><br>
+                let debugModeIsOn = true;<br><br> if(debugModeIsOn){<br> //draw hitboxes<br> } </p>      
+                  </div>
+ 
+                  <button class="accordion">Funktioner</button>
+                 <div class="panel">
+                  <p> Eksempel på en funktion <br><br>
+                
+                    function calculateDistance (p1x, p1y, p2x, p2y){ <br>
+                    let a = Math.abs(p1x - p2x);<br>
+                    let b = Math.abs(p1y - p2y);<br>
+                    let cSqaured = (a*a) + (B*B);<br>
+                    return Math.sqrt(cSqaured);<br>
+                  }
+                       </p>      
+                  </div>
+ 
+                  <button class="accordion">Arrays</button>
+                 <div class="panel">
+                  <p>  Et arrays kan se sådan ud <br>
+                let coins = [<br>
+                "første coin", <br>
+                "andet coin", <br>
+                "tredje coin", <br>
+                "fjerde coin" <br>
+                ];<br><br>
+                Man aflæser fx. "første coin" ved at skrive coins coins[0];<br>
+                For at afløse "tredje coin" skriver man coins[2]
+                <br> Man starter ikke aflæsningen med [1], men man starter med [0]
+         </p>      
+                  </div>
+
+                  <button class="accordion">Loops</button>
+                  <div class="panel">
+                   <p>  --Eksempel på for-loop<br><br>
+                for(let i = 0; 1 < clouds.length; i++) {<br>
+                //draw cloud i } <br><br><br>
+
+            --Eksempel på for/of-loop<br><br>
+                for(let cloud of clouds) {<br>
+                //draw cloud i } 
+            </p>      
+                   </div>
+
+                   <button class="accordion">Alert, Confirm og Prompt </button>
+                   <div class="panel">
+                    <p> Alert -><br>
+                <button onclick="myFunction()">Try it</button>
+
+                <script>
+                function myFunction() {
+                alert("I am an alert box!");
+                }
+                </script><br><br>
+
+
+                Confirm -><br>
+                <button onclick="myFunction()">Try my</button>
+
+                <p id="demo"></p>
+
+                <script>
+                function myFunction() {
+                var txt;
+                if (confirm("Press a button!")) {
+                    txt = "You pressed OK!";
+                } else {
+                    txt = "You pressed Cancel!";
+                }
+                document.getElementById("demo").innerHTML = txt;
+                }
+                </script><br><br>
+
+
+                Prompt -> <br>
+                <button onclick="myFunction()">Try this</button>
+
+                <p id="demo"></p>
+
+                <script>
+                function myFunction() {
+                let text;
+                let person = prompt("Please enter your name:", "Harry Potter");
+                if (person == null || person == "") {
+                    text = "User cancelled the prompt.";
+                } else {
+                    text = "Hello " + person + "! How are you today?";
+                }
+                document.getElementById("demo").innerHTML = text;
+                }
+                </script> 
+
+                    </div>
+                    
+              
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html> 
